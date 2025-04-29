@@ -7,7 +7,7 @@
 
 Vision-Language Transformers (VLTs) have achieved remarkable success, but their computational costs pose a challenge due to the large number of input tokens and extensive model parameters. Existing VLT compression methods primarily rely on single-modality-based token pruning or coarse-grained weight pruning techniques. However, these methods face significant obstacles, such as ignoring the critical alignment of different modalities and lacking the flexibility to dynamically compress each layer for token pruning, exhibiting inevitable performance degradation due to coarse-grained weight pruning, and struggling with the simultaneous compression of both input tokens and model parameters. To address those limitations, we propose MADTP++, a novel approach that integrates custom-made token and weight pruning processes into a unified framework, achieving superior compression in both parameter counts and computational costs.
 
-<img src="MADTP++.png" width="800">
+<img src="MADTP-plus.png" width="800">
 <img src="MADTP.png" width="800">
 
 Official implementation of [MADTP++: Bridge the Gap between Token and Weight Pruning for Accelerating VLTs](https://arxiv.org/abs/). 
